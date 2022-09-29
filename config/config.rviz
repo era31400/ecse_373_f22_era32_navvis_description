@@ -7,7 +7,7 @@ Panels:
         - /Global Options1
         - /Status1
         - /RobotModel1
-      Splitter Ratio: 0.5
+      Splitter Ratio: 0.6352941393852234
     Tree Height: 527
   - Class: rviz/Selection
     Name: Selection
@@ -72,6 +72,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        laser_horiz_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         laser_vert_bottom:
           Alpha: 1
           Show Axes: false
@@ -103,7 +108,7 @@ Visualization Manager:
           Show Trail: false
           Value: true
       Name: RobotModel
-      Robot Description: my_robot
+      Robot Description: /robot_description
       TF Prefix: ""
       Update Interval: 0
       Value: true
@@ -152,9 +157,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.42039838433265686
+      Pitch: 0.26039817929267883
       Target Frame: <Fixed Frame>
-      Yaw: 1.3053972721099854
+      Yaw: 0.4103972911834717
     Saved: ~
 Window Geometry:
   Displays:
